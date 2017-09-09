@@ -1,0 +1,62 @@
+* {
+	background-color: rgb(117, 121, 138);
+
+}
+
+.toCenter {
+	text-align: center;
+	text-shadow: 2px, 2px, #ffffff;
+}
+
+#header {
+	border-style:solid;
+	border-width: 5px;
+	border-color: 5px;
+	border-color: white;
+	background-color: rgb(28, 26, 37);
+}
+
+#title,#email{
+	color: white;
+	background-color: rgb(28, 26, 37);
+}
+
+
+#footer {
+
+	min-height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	background-color: rgb(28, 26, 37);
+	color: gray;
+
+}
+
+
+.footer{
+	background-color: rgb(28,26,37);
+	text-align: center;
+}
+
+#links{
+	background-color: rgb(28,26,37);
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+a {
+	font-size: 125%;
+}
+
+a:link{
+	color: aqua;
+}
+
+a:visited{
+	color: aqua;
+}
+
+li {
+	list-style-type: none;
+}
