@@ -1,0 +1,25 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #5a5a5a;
+}
+
+
+.container {
+	padding-top: 2rem;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

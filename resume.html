@@ -6,60 +6,144 @@
 <head>
 
 	<title>Resume</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="resume_style.css" />
 
 </head>
 <body>
-	<header id="header">
-		<h1 id="title" class="toCenter">Resume For Sam Radford</h1>
-		<h3 id="email" class="toCenter">Email: radfordsm2@gmail.com</h3>
-	</header>
 
-	<section>
-		<h2 id="knowledge" class="toCenter">Knowledge And Skills</h2>
-		<div id="knowledgeList" class="toCenter">
-			<ul>
-				<li>Proficient In: Java</li>
-				<li>Familiar With: Python, C, C++</li>
-				<li>Database Design: mySQL, sqlite</li>
-				<li>Web Programming: HTML5, CSS, JavaScript, jQuery</li>
-				<li>Proficient Using: Unix Environment</li>
-			</ul>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="links.html">Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+	<div class="jumbotron d-flex align-items-center">
+		<div class="container">
+			<button class="btn btn-primary">Download Resume</h1>
 		</div>
-	</section>
+	</div>
 
-	<section>
-		<h2 id="education" class="toCenter">Education</h2>
-		<div id="educationData" class="toCenter">
-			<p><strong>Bachelor of Science in Computer Science 
-			with a Minor in Mathematics</strong><br>
-			May 2015, Appalachian State University<br>
-			Graduated Magna Cum Laude with a GPA of 3.65 on a 4.0 scale
-			</p>
+	<div class="container">
+		<div class="row">
+		    
+			<div class="col">
+		    	<h3>Knowledge And Skills</h3>
+		    </div>
+		    
+		    <div class="col">
+		    	<dl>
+		    		<dt>Proficient In:</dt>
+		     		<dd>Java</dd>
+		    	</dl>
+		    	<dl>
+		    		<dt>Familiar With:</dt>
+		      		<dd>Python</dd>
+		      		<dd>C</dd>
+		      		<dd>C++</dd>
+		      	</dl>
+		      	<dl>
+		      		<dt>Proficient Using:</dt>
+		      		<dd>Unix Environment</dd>
+		      	</dl>
+		    </div>
+
+		    <div class="col">
+		    	<dl>
+		      		<dt>Database Design:</dt>
+		      		<dd>MySQL</dd>
+		      		<dd>sqlite</dd>
+		      	</dl>
+		      	<dl>
+		      		<dt>Web Programming:</dt>
+		      		<dd>HTML</dd>
+		      		<dd>CSS</dd>
+		      		<dd>JavaScript</dd>
+		      		<dd>JQuery</dd>
+		      	</dl>
+		    </div>
+		</div>	  
+	</div>	
+
+	<hr>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Education</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Bachelor of Science in Computer Science 
+				           with a Minor in Mathematics</strong><br>
+			               May 2015, Appalachian State University<br>
+			               Graduated Magna Cum Laude with a GPA of 3.65 on a 4.0 scale
+				</p>
+
+			</div>
 		</div>
-	</section>
 	
-	<section>
-		<h2 id="experience" class="toCenter">Experience</h2>
-		<p class="toCenter"><strong>Tutor: Appalachian State University<br>
-		Fall 2012 - Fall 2013</strong><br>
-		Tutored a group of students on the material for the lab sections of the first two level courses in the Computer Science program.
-	</section>
-	
-	<section>
-		<h2 id="projects" class="toCenter">Projects</h2>
-		<p class="toCenter"><strong>Mobile Finance Tracker</strong><br> Android application that can be used to store, manage, and track finances and spending habits</p>
-		<p class="toCenter"><strong>Texas Hold 'em</strong><br>A web-based Texas Hold 'em game using HTML, CSS, and JavaScript</p>
-		<p class="toCenter"><strong>Y-86 Machine</strong><br>Y-86 machine that simulates how a machine reads and executes assembly language commands</p>
-		<p class="toCenter"></p>
-		<p class="toCenter"></p>
-	</section>
+	<hr>
 
-	<footer id="footer" class="footer">
-		<h2 id="links">Links</h2>
-		<p class="footer">
-			<a href="https://www.github.com/srad1292" target="_blank" class="footer">Github</a>
-		</p>
-	</footer>
+	</div>
+
+		<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Experience</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Tutor: Appalachian State University<br>
+						   Fall 2012 - Fall 2013</strong><br>
+						   Tutored a group of students on the material for the lab sections of the first two level courses in the Computer Science program
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	</div>
+
+		<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Projects</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Mobile Finance Tracker</strong><br> Android application that can be used to store, manage, and track finances and spending habits</p>
+				<p><strong>Texas Hold 'em</strong><br>A web-based Texas Hold 'em game using HTML, CSS, and JavaScript</p>
+				<p><strong>Portfolio Website</strong><br>A website to say a little about myself, display my resume, and provide links to my projects</p>
+				<p><strong>Y-86 Machine</strong><br>Y-86 machine that simulates how a machine reads and executes assembly language commands</p>
+				<p><strong>Ultimate Frisbee Club Database</strong><br>Database design for the Appalachian State Univeristy Ultimate Frisbee Club.  Keeps up with players, parents, tournaments, and individual games.</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid bg-4 text-center">
+    	<p>
+      		<a href="index.html" class="bottom_links">Home</a>
+    	</p>
+    	<p>
+      		<a href="links.html" class="bottom_links">Links</a>
+    	</p> 
+  </footer>
+	
+
+
 </body>
 </html>

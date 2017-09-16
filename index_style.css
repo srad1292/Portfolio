@@ -16,7 +16,7 @@ body {
 .jumbotron {
   background-color: #777;
   background-image: url(./img/about_background2.jpg);
-  height: 15rem;
+  height: 40rem;
   margin-bottom: 0%;
 }
 
@@ -26,12 +26,13 @@ body {
   border-color: red;
 }*/
 
-.container {
-	text-align: center;
+.about_me{
+  color: white;
+  text-align: center;
 }
 
-button {
-	border-radius: 3px;
+p.about_me{
+  font-weight: bold;
 }
 
 .bg-4 {
@@ -58,6 +59,11 @@ footer {
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
 
   .featurette-heading {
     font-size: 50px;
