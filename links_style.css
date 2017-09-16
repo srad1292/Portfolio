@@ -2,7 +2,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  color: #5a5a5a;
+  color: #404040;
 }
 
 
@@ -10,16 +10,34 @@ body {
 	padding-top: 2rem;
 }
 
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-
-  .featurette-heading {
-    font-size: 50px;
-  }
+.row {
+	margin-top: 2rem;
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+h2 {
+  text-align: center;
+  color: black
+}
+
+.hide {
+  display: hidden;
+}
+
+
+.card-title {
+  background-color: lightblue;
+  color: black;
+}
+
+
+
+
+/**Increase the margin between rows at 1200 px
+   Below 1200 there are still 3 per row but the 
+   Margin gets bigger so by increasing it above
+   1200 the look stays consistent*/
+@media (min-width: 1200px) {
+	.secondary{
+		padding-top: 4rem;
+	}
 }

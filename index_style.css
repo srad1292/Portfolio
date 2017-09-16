@@ -7,7 +7,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  color: #5a5a5a;
+  color: #656565;
 }
 
 
@@ -44,7 +44,7 @@ p.about_me{
   color: gray;
 }
 
-.bottom_links:hover{
+a.bottom_links:hover{
   color: white;
 }
 
