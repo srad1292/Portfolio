@@ -29,6 +29,25 @@ h2 {
   color: black;
 }
 
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+footer {
+  margin-top: 2%;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.bottom_links{
+  color: gray;
+}
+
+.bottom_links:hover{
+  color: white;
+}
+
 
 
 
