@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>	
+<!-- Resume Project-->
+<!-- List the information from the resume in different sections-->
+<!-- A list of links in the footer with things like linkedin and email-->
 <head>
-  <!--sidebar enhancements and emmet-->
 
-  <meta charset="UTF-8">
-  <title>Sam Radford</title>
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="index_style.css" rel="stylesheet">
+	<title>Resume</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index_style.css" />
+
 </head>
 <body>
+
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,63 +19,151 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="resume.html">Resume <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="links.html">Links</a>
+            <a class="nav-link" href="links.html">Portfolio</a>
           </li>
         </ul>
       </div>
     </nav>
-	<div>
-		<div class="jumbotron">
+
+	<div class="jumbotron d-flex align-items-center">
+		<div class="container">
+			<h1 class="about_me">About Me</h1>
+			<p class="about_me">My name is Samuel Radford.  This resume page was created as a portfolio project in my Web Development Boot Camp. It is meant to show off my education, skills, experience, and projects.  I began studying Computer Science my junior year of high school, where we learned using Pascal and C++.  I continued on to study Computer Science at Appalachian State University where I learned skills in Java, C, HTML, CSS, JavaScript, JQuery, and MySQL. While in school I taught myself development for Android.  I received a degree in Computer Science with a minor in Mathematics from Appalachian State Univeristy. The boot camp I'm in currently provides skills in HTML, CSS, JavaScript and jQuery, MySQL, and C#.  On my own time I am currently learning Python.</p>
+			<button class="btn btn-primary" type="submit" onclick="window.open('./docs/Resume.docx')">Download Resume</h1>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="row">
+		    
+			<div class="col">
+		    	<h3>Knowledge And Skills</h3>
+		    </div>
+		    
+		    <div class="col">
+		    	<dl>
+		    		<dt>Proficient In:</dt>
+		     		<dd>Java</dd>
+		    	</dl>
+		    	<dl>
+		    		<dt>Familiar With:</dt>
+		      		<dd>Python</dd>
+		      		<dd>C</dd>
+		      		<dd>C++</dd>
+		      	</dl>
+		      	<dl>
+		      		<dt>Proficient Using:</dt>
+		      		<dd>Unix Environment</dd>
+		      	</dl>
+		    </div>
+
+		    <div class="col">
+		    	<dl>
+		      		<dt>Database Design:</dt>
+		      		<dd>MySQL</dd>
+		      		<dd>sqlite</dd>
+		      	</dl>
+		      	<dl>
+		      		<dt>Web Programming:</dt>
+		      		<dd>HTML</dd>
+		      		<dd>CSS</dd>
+		      		<dd>JavaScript</dd>
+		      		<dd>JQuery</dd>
+		      	</dl>
+		    </div>
+		</div>	  
+	</div>	
+
+	<hr>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Education</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Bachelor of Science in Computer Science 
+				           with a Minor in Mathematics</strong><br>
+			               May 2015, Appalachian State University<br>
+			               Graduated Magna Cum Laude with a GPA of 3.65 on a 4.0 scale
+				</p>
+				<p><strong>Web Development Boot Camp, Wake Tech Community College</strong><br>
+					A sixteen week program on web application development using: HTML5, CSS3, JavaScript and jQuery, MySQL, and C#
+				</p>
+
+			</div>
+		</div>
+	
+	<hr>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Certifications</h3>
+			</div>
+
+			<div class="col">
+				<p>
+					<strong>
+						Microsoft Technology Associate: HTML5 Application Development Fundamentals
+					</strong>
+				</p>
+				<p><strong>(In Progress) Microsoft Technology Associate: Software Development Fundamentals</strong>	
+				</p>
+			</div>
+		</div>
+	
+	<hr>
+
+	</div>
+
+		<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Experience</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Tutor: Appalachian State University<br>
+						   Fall 2012 - Fall 2013</strong><br>
+						   Tutored a group of students on the material for the lab sections of the first two level courses in the Computer Science program
+				</p>
+
+			</div>
 		</div>
 	</div>
 
-  <div class="container" id="aboutSection">
-    <div class="row">
-        <div class="col">
-          <h1 class="about_me">About Me</h1>
-          <p class="about_me">My name is Samuel Radford.  This resume page was created as a portfolio project in my Web Development Boot Camp. It is meant to show off my education, skills, experience, and projects.  I began studying Computer Science my junior year of high school, where we learned using Pascal and C++.  I continued on to study Computer Science at Appalchian State University where I learned skills in Java, C, HTML, CSS, JavaScript, JQuery, and MySQL. While in school I taught myself development for Android.  I received a degree in Computer Science with a minor in Mathematics from Appalachian State Univeristy. On my own time I am currently learning Python.</p>
-        </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <div class="container-fluid bg-4 text-center" id="footer">
-    <p>
-      <a href="resume.html" class="bottom_links">Resume</a>
-    </p>
-    <p>
-      <a href="links.html" class="bottom_links">Links</a>
-    </p> 
-    <p>
-      <a href="https://github.com/srad1292?tab=repositories" target="_blank" class="bottom_links">GitHub</a>
-    </p>
-    <p class="bottom_links">
-      Contact: radfordsm2@gmail.com
-    </p>
-  </div>
+	<hr>
+
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Projects</h3>
+			</div>
+
+			<div class="col">
+				<p><strong>Mobile Finance Tracker</strong><br> Android application that can be used to store, manage, and track finances and spending habits</p>
+				<p><strong>Texas Hold 'em</strong><br>A web-based Texas Hold 'em game using HTML, CSS, and JavaScript</p>
+				<p><strong>Portfolio Website</strong><br>A website to say a little about myself, display my resume, and provide links to my projects</p>
+				<p><strong>Y-86 Machine</strong><br>Y-86 machine that simulates how a machine reads and executes assembly language commands</p>
+				<p><strong>TheMovieDB API Project</strong><br>Using the TheMovieDB api, the user is able to group, compare, and sort selected movies</p>
+				<p><strong>Ultimate Frisbee Club Database</strong><br>Database design for the Appalachian State Univeristy Ultimate Frisbee Club.  Keeps up with players, parents, tournaments, and individual games.</p>
+				<p><strong>Eloquent JavaScript</strong><br>Worked through the Eloquent JavaScript textbook, the end of chapter exercises, and the projects</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid bg-4 text-center">
+    	<p>
+      		<a href="links.html" class="bottom_links">Portfolio</a>
+    	</p> 
+ 	</footer>
 	
- 
-
-      <!-- /END THE FEATURETTES -->
 
 
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

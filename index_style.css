@@ -2,55 +2,41 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-/*html, body{
-  height: 100%;
-}*/
+
 body {
   padding-top: 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  color: #656565;
+  color: #404040;
 }
 
 
 /* CUSTOMIZE THE JUMBOTRON */
 
 .jumbotron {
-  background-color: #777;
-  background-image: url(./img/about_background2.jpg);
-  /*height: 40rem;*/
-  height: 10rem;
-  margin-bottom: 0%;
-}
-
-#aboutSection {
-  min-height: 24rem;
-  padding-top: 2rem;
-  text-align: center;
+  background-color: white;
+  /*background-color: #777;
+  background-image: url(./img/about_background2.jpg);*/
+  height: 15rem;
   margin-bottom: 1rem;
 }
 
+.about_me {
+  color: black;
+}
 
 /**div.jumbotron > div{
   border-style: solid;
   border-color: red;
 }*/
 
-.about_me{
-  color: #404040;
-
+.container {
+	text-align: center;
 }
 
-h1.about_me{ 
-  margin-bottom: 2rem;
+button {
+	border-radius: 3px;
 }
-
-p.about_me{
-  font-weight: bold;
-  width: 60%;
-  margin: 0 auto;
-}
-
 
 .bg-4 {
     background-color: #2f2f2f;
@@ -61,19 +47,30 @@ p.about_me{
   color: gray;
 }
 
-a.bottom_links:hover{
+.bottom_links:hover{
   color: white;
 }
 
-#footer {
-  /*height:100%;*/
+footer {
   padding-top: 1rem;
   padding-bottom:2rem;
 }
 
 
 
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
