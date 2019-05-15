@@ -29,6 +29,11 @@ h2 {
   color: black;
 }
 
+.card-text {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 .bg-4 {
     background-color: #2f2f2f;
     color: #ffffff;
