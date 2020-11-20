@@ -4,7 +4,7 @@
 
 
 body {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 0;
   margin-bottom: 0;
   color: #404040;
@@ -15,9 +15,6 @@ body {
 
 .jumbotron {
   background-color: white;
-  /*background-color: #777;
-  background-image: url(./img/about_background2.jpg);*/
-  height: 20rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -26,13 +23,9 @@ body {
   color: black;
 }
 
-/**div.jumbotron > div{
-  border-style: solid;
-  border-color: red;
-}*/
-
 .container {
-	text-align: center;
+  text-align: center;
+  width: 100%;
 }
 
 button {
@@ -45,18 +38,19 @@ button {
     color: #ffffff;
 }
 
-.bottom_links{
-  color: gray;
+.navigation-link{
+  color: rgb(247, 250, 255) !important;
 }
 
-.bottom_links:hover{
-  color: white;
+.navigation-link:hover{
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 footer {
   padding-top: 1rem;
   padding-bottom:2rem;
 }
+
 
 
 
@@ -74,5 +68,11 @@ footer {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .download-button {
+    margin-bottom: 5px;
   }
 }

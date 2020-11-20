@@ -27,6 +27,7 @@ h2 {
 .card-title {
   background-color: lightblue;
   color: black;
+  padding: 5px;
 }
 
 .card-text {
@@ -45,15 +46,23 @@ footer {
   padding-bottom: 2rem;
 }
 
-.bottom_links{
-  color: gray;
+.navigation-link{
+  color: rgb(247, 250, 255) !important;
 }
 
-.bottom_links:hover{
-  color: white;
+.navigation-link:hover{
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.repo-button {
+  display: block;
+  padding-left: 3px;
+  margin-bottom: 3px;
+}
 
+.col-sm-4 {
+  margin-bottom: 1.5rem;
+}
 
 
 /**Increase the margin between rows at 1200 px

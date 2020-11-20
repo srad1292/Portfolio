@@ -12,15 +12,18 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+		  data-target="#navbarCollapse" aria-controls="navbarCollapse" 
+		  aria-expanded="false" aria-label="Toggle navigation"
+	  >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="links.html">Portfolio</a>
+            <a class="nav-link navigation-link" href="links.html">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -35,13 +38,10 @@
 				where we learned using Pascal and C++.  I continued on to study Computer Science at Appalachian State University where 
 				I learned skills in Java, C, HTML, CSS, JavaScript, JQuery, and MySQL. While in school I taught myself development for Android.  
 				I received a degree in Computer Science with a minor in Mathematics from Appalachian State Univeristy. 
-				Next, I attended a boot camp which focused on HTML, CSS, JavaScript and jQuery, MySQL, and C#.  After the boot camp, I started a job 
-				as a full-stack web developer for AT&amp;T where we worked on a project that brought many apis together to create different workflow systems
-				that AT&amp;T technicians used to do their work.  We used a Perl back end along with the typical HTML, CSS, JavaScript front end using Ember.JS 
-				as a framework.	On my own time I am currently learning Python and Angular as I build a web application to create and track tasks for a project
-				which will be used to keep my organized while I do personal development work.</p>
-			<button class="btn btn-primary" type="submit" onclick="window.open('./docs/Resume.docx')">Download Resume Word Doc</h1>
-			<button class="btn btn-primary" type="submit" onclick="window.open('./docs/Resume.pdf')">Download Resume PDF</h1>
+				Next, I attended a boot camp which focused on HTML, CSS, JavaScript and jQuery, MySQL, and C#.  Since the boot camp I have worked 
+				as a full stack web developer for AT&T and SharkDreams.  I frequently work on personal projects as well.</p>
+			<button class="btn btn-primary download-button" type="submit" onclick="window.open('./docs/Resume.docx')">Download Resume Word Doc</h1>
+			<button class="btn btn-primary download-button" type="submit" onclick="window.open('./docs/Resume.pdf')">Download Resume PDF</h1>
 		</div>
 	</div>
 	<hr>
@@ -74,7 +74,8 @@
 
 		    <div class="col">
 		    	<dl>
-		    		<dt>Database Design:</dt>
+					<dt>Database Design:</dt>
+					<dd>PostgreSQL</dd>
 		      		<dd>MongoDB</dd>
 					<dd>MySQL</dd>
 					<dd>sqlite</dd>
@@ -141,6 +142,22 @@
 			</div>
 
 			<div class="col">
+				<div class="row">
+					<div class="col">
+						<p><strong>Full-stack Web Developer: SharkDreams<br>
+								August 2019 - Current</strong><br>
+								Worked on web-based portals for hospital and pharmaceutical services. 
+								Also worked on a system used to provide mobile and remote communication between doctors and their patients. 
+								Developed a couple of web apps that were used by the Indian government in their response to COVID-19. 
+								Working on a project that will incorporate virtual consultations, hospital services, COVID-19 services, and more as it grows.  
+								Currently have created a payment system in the application using Stripe. 
+								Worked closely with all types of roles, including architects, designers, dev ops, QA, and other developers to complete projects. 
+								Work was done using Angular, Node.js w/ Typescript, and PostgreSQL.  
+								Did some dev ops work with beanstalks in AWS. Also, some CI/CD with Jenkins.
+						</p>
+		
+					</div>
+				</div>
 				
 				<div class="row">
 					<div class="col">
@@ -176,12 +193,13 @@
 			</div>
 
 			<div class="col">
-				<p><strong>Project Task Tracker</strong><br>In Progress: A web application used to break down projects into tasks to stay organized</p>
+				<p><strong>Project Task Tracker</strong><br><b>In Progress:</b> A web application used to break down projects into tasks to stay organized</p>
+				<p><strong>D&D Dice Roller</strong><br><b>In Progress:</b> A D&D dice roller and character sheet using vanilla html/JavaScript/CSS and IndexedDB</p>
+				<p><strong>Anime Analytics</strong><br>Website to view tables and graphs to visualize my anime watching history</p>
 				<p><strong>Centralized Hobby Ratings</strong><br>In Progress: A web app using Angular, Node.js, Express.js, and MongoDB to centralize getting details about things like anime, and books, from public restful apis and then adding personal ratings</p>				
 				<p><strong>Mobile Finance Tracker</strong><br> Android application that can be used to store, manage, and track finances and spending habits</p>
 				<p><strong>Texas Hold 'em</strong><br>A web-based Texas Hold 'em game using HTML, CSS, and JavaScript</p>
 				<p><strong>Portfolio Website</strong><br>A website to say a little about myself, display my resume, and provide links to my projects</p>
-				<p><strong>WWE Prediction Website</strong><br>A website to add WWE pay per view events and predict the outcomes of each match.  A database is used to store information about each wrestler such as how many matches of theirs you have predicted, which shows you did best and worst on, your overall prediction percentage, etc.</p>
 				<p><strong>Y-86 Machine</strong><br>Y-86 machine that simulates how a machine reads and executes assembly language commands</p>
 				<p><strong>TheMovieDB API Project</strong><br>Using the TheMovieDB api, the user is able to group, compare, and sort selected movies</p>
 				<p><strong>Ultimate Frisbee Club Database</strong><br>Database design for the Appalachian State Univeristy Ultimate Frisbee Club.  Keeps up with players, parents, tournaments, and individual games.</p>
@@ -194,7 +212,7 @@
 
 	<footer class="container-fluid bg-4 text-center">
     	<p>
-      		<a href="links.html" class="bottom_links">Portfolio</a>
+      		<a href="links.html" class="navigation-link">Portfolio</a>
     	</p> 
  	</footer>
 	
